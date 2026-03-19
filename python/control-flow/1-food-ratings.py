@@ -1,14 +1,14 @@
-# ⭐️ Food Ratings
+# Codédex challenge pack 1
+#⭐️ Food Ratings
+rating = float(input("Enter food rating (0–5): "))
 
-rating = 4.3
-
-if rating > 4.5: 
-  print('Extraordinary')
+if rating > 4.5:
+    print('Perfection')
 elif rating > 4:
-  print('Excellent')
+    print('Excellent')
 elif rating > 3:
-  print('Good')
+    print('Good')
 elif rating > 2:
-  print('Fair')
+    print('Fair')
 else:
-  print('Poor')
+    print('Poor')
